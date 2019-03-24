@@ -1,0 +1,54 @@
+to install live server we use
+
+npm install -g live-server
+
+To installl babel cli 
+
+npm install -g babel-cli@6.24.1
+
+
+Install Babel presets run the below command
+
+yarn add babel-preset-react@6.24.1 babel-preset-env@1.5.2
+
+
+
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+babel src/playgrounds/es6-classes1.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+
+uninstall global modules by the following command
+npm uninstall -g babel-cli live-server
+
+Then in the project folder run the following command
+npm install --save-dev @babel/core @babel/cli
+
+npm uninstall babel-preset-env babel-preset-react
+
+npm i @babel/preset-env @babel/preset-react
+
+
+babel src/app.js --out-file=public_html/scripts/app.js --presets=@babel/preset-env,@babel/preset-react --watch
+
+To run the server
+npm run serve
+
+To build the file 
+
+npm run build
+
+
+To install babel
+
+
+Got Stuck with the error so added this
+yarn add --dev babel-jest babel-core@^7.0.0-bridge.0 @babel/core regenerator-runtime
+
+solved using https://stackoverflow.com/questions/51873516/requires-babel-7-0-0-0-but-was-loaded-with-6-26-3
+
+
+React router
+
+To install React Router we need to use
+yarn add react-router-dom@4.2.2
