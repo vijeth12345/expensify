@@ -1,3 +1,13 @@
+Git Commands for first time
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/vijeth12345/test.git
+git push -u origin master
+
+
+
 to install live server we use
 
 npm install -g live-server
@@ -52,3 +62,11 @@ React router
 
 To install React Router we need to use
 yarn add react-router-dom@4.2.2
+
+i had stuckwith an error where i was not able route to induvidual pages using thelink directly
+i found the solution in the below link
+https://github.com/ReactTraining/react-router/blob/master/FAQ.md#why-arent-my-components-updating-when-the-location-changes
+
+
+To install redux 
+npm install --save redux
