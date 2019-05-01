@@ -1,40 +1,47 @@
 {
-  "name": "Boler-Plate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "serve": "live-server public/",
-    "build": "webpack --watch",
-    "dev-server": "webpack-dev-server"
-  },
-  "author": "vijeth",
-  "license": "ISC",
-  "dependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
-    "babel-plugin-transform-class-properties": "6.24.1",
-    "css-loader": "^2.1.1",
-    "live-server": "^1.2.1",
-    "node-sass": "^4.11.0",
-    "normalize.css": "^8.0.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-modal": "^3.8.1",
-    "react-router-dom": "^5.0.0",
-    "redux": "^4.0.1",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "validator": "^8.0.0",
-    "webpack": "^3.1.0",
-    "webpack-dev-server": "2.5.1"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^24.5.0",
-    "babel-loader": "^7.1.5",
-    "regenerator-runtime": "^0.13.1"
-  }
+	"name": "Boler-Plate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"serve": "live-server public/",
+		"build": "webpack --watch",
+		"dev-server": "webpack-dev-server",
+		"test": "jest"
+	},
+	"author": "vijeth",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/core": "^7.3.4",
+		"@babel/plugin-proposal-object-rest-spread": "^7.4.0",
+		"@babel/preset-env": "^7.3.4",
+		"@babel/preset-react": "^7.0.0",
+		"babel-plugin-transform-class-properties": "6.24.1",
+		"css-loader": "^2.1.1",
+		"live-server": "^1.2.1",
+		"moment": "^2.24.0",
+		"node-sass": "^4.11.0",
+		"normalize.css": "^8.0.1",
+		"react": "^16.0.0",
+		"react-addons-shallow-compare": "^15.6.2",
+		"react-dates": "^20.1.0",
+		"react-dom": "^16.0.0",
+		"react-modal": "^3.8.1",
+		"react-redux": "^6.0.1",
+		"react-router-dom": "^5.0.0",
+		"redux": "^4.0.1",
+		"sass-loader": "^7.1.0",
+		"style-loader": "^0.23.1",
+		"uuid": "^3.3.2",
+		"validator": "^8.0.0",
+		"webpack": "^3.1.0",
+		"webpack-dev-server": "2.5.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.2.3",
+		"babel-core": "7.0.0-bridge.0",
+		"babel-jest": "^24.5.0",
+		"babel-loader": "^7.1.5",
+		"regenerator-runtime": "^0.13.1"
+	}
 }
